@@ -1,0 +1,63 @@
+<section>
+    Hey  {{userName}} 
+
+</section>
+
+<section class=" all d-flex justify-content-center">
+    <!-- Hey  {{userName}} -->
+
+<!-- <div class="whole">
+    <input type="text" name="" id="" placeholder="First Name" [(ngModel)]="fName">
+    <input type="text" name="" id="" placeholder="Last Name"  [(ngModel)]="lName">
+    <input type="text" id="" placeholder="Phone number"  [(ngModel)]="pNumber">
+    <button (click)="addContact()">Add Contact</button>
+
+    <div *ngFor="let ph of phonny index as savedContact">
+        <p (click)="moreDetails(savedContact)">{{ph. firstName}}</p>
+
+    </div>
+</div> -->
+
+
+
+
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Create New Contact
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <input type="text" placeholder="First Name" class="form-control" [(ngModel)]="fName">
+          <input type="text" placeholder="Last Name" class="form-control" [(ngModel)]="lName">
+          <input type="text" placeholder="Phone number" class="form-control" [(ngModel)]="phoneNumber">
+          <input type="text" placeholder="Email" class="form-control" [(ngModel)]="Email">
+          <input type="text" placeholder="Titlt" class="form-control" [(ngModel)]="title">
+          <input type="text" placeholder="Relationship" class="form-control" [(ngModel)]="rel">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" (click)="saveContact()">Save</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <section  class="two"> 
+      <ul *ngFor="let each of disp;let i =index " >
+          <li class="text-light" >{{each.name_one}} 
+              <p class="number">{{each.Phone_no}}</p>
+            </li>
+        </ul> 
+        
+
+  </section>
+  
