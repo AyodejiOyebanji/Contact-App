@@ -1,0 +1,18 @@
+<section>
+    <div class="whole bg-dark animate__animated animate__bounceInRight" >
+        <h1 class=" savvy text-light  "> <span>S</span>avv<span>Y</span> </h1>
+        <p class="home text-light">I have a home phone number, and I like it! It's like a throwback already.</p>
+        <p class="home text-light">We guard your contact jealously</p>
+        <a routerLinkActive="active" routerLink="/login" (click)='goToLogin()' ><button class=" log btn  text-light animate__animated animate__bounceInRight ">Log in</button></a>
+        
+       <a routerLinkActive="active" routerLink="/sign-up"><button class="sign btn text-light animate__animated animate__bounceInRight">Sign Up</button></a> 
+       
+    </div>
+
+    {{name|lowercase}}
+    <p>{{900|currency:'NGN':'symbol-narrow'}}
+    </p>
+    <p>{{dateee|date: 'dd/MM/yyyy'}}</p>
+    <p>{{name| custom}}</p>
+</section>
+<router-outlet></router-outlet>

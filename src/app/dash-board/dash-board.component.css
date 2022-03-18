@@ -1,0 +1,26 @@
+/* .whole{
+    height: 100vh;
+    width: 100%;
+    /* background-color:black; */
+        /* text-align: center;
+        padding-top: 100px;
+        color: white;
+        overflow: hidden;
+        background: #bbb; 
+        background: linear-gradient(#1e0a0a, rgb(0,0,0,0.5)), url("../login/image/wall.jfif");  
+        background-size: cover;
+        background-repeat: no-repeat;
+    } */ 
+.all {
+    background-color: black;
+    /* height: 90vh; */
+}
+    .number{
+        font-size: 10px;
+    }
+    .two{
+        background-color: black;
+        width: 100%;
+        height: 92vh;
+    }
+

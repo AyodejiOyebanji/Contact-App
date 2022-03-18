@@ -1,0 +1,26 @@
+<section>
+
+    <div  class="whole animate__animated animate__fadeInLeft ">
+        <h1 class="logy text-light ">Sign up</h1>
+        <!-- <p class="text-light p-5">Fill in your details</p> -->
+        <label for="" class="label">Name</label>
+        <input type="text" class="form-control " placeholder="Oyebanji Oyedapo" [(ngModel)]="userName">
+        <label for="" class="label">Email</label>
+        <input type="text" class="form-control" placeholder="oyeayodeji@gmail.com" [(ngModel)]="userEmail">
+        <label for="" class="label">Password</label>
+        <input type="password" class="form-control " placeholder="Enter your password" [(ngModel)]="userPassword">
+        <label for="" class="label">Confirm Password</label>
+        <input type="password" class="form-control" placeholder="Confirm your password" [(ngModel)]="userConfirm">
+        <button class="btn text-light" (click)='createAccount()'>Create Account</button>
+        <p>Already have an account? Log in</p>
+
+        <div id="">
+
+        </div>
+       
+    </div>
+</section>
+
+
+<router-outlet></router-outlet>
+

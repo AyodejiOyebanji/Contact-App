@@ -1,0 +1,35 @@
+.whole{
+    width: 100%;
+    height: 100vh;
+}
+.savvy{
+   
+    font-family: 'Love Light', cursive;
+    font-size: 120px;
+    transform: translateY(200px);
+  
+}
+.home{
+    transform: translateY(200px);
+      font-family: 'Great Vibes', cursive; 
+
+}
+.log{
+    transform: translateY(250px) !important;
+    width: 200px;
+    margin-left: 60px;
+    background-color: #CD23B3;
+    font-size: 20px;
+    
+}
+.sign{
+    transform: translateY(250px) !important;
+    width: 200px;
+    margin-left: 60px;
+    border: thin solid white;
+    
+    
+
+   
+
+}
